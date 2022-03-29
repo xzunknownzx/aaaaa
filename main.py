@@ -1,10 +1,12 @@
 mytitle = "DC SEC - JohnWick#0002"
 from os import system
-system("title "+mytitle)
+
+system("title " + mytitle)
 import psutil
 from pypresence import Presence
 import time
 import sys
+
 client_id = '817837528660705362'
 import discord
 import asyncio
@@ -35,16 +37,16 @@ print(f"""{Fore.RED}
 {Style.RESET_ALL}
                                                             {Fore.MAGENTA}Developed By: JohnWick#0002.{Style.RESET_ALL}
         """)
-token = 'OTA5MTQ2NDA3MjkyNzkyODgz.YZACkg.jK5o5isgAlnThPFoo0Lk5MeYIbA'
+token = 'OTA5MTQ2NDA3MjkyNzkyODgz.YZACkg.UUKnOMsxLeTJHZUImvd1Q0KOsMo'
 guild_s = '908493791130947607'
 guild = '958206760164933672'
 input_guild_id = guild_s  # <-- input guild id
 output_guild_id = guild  # <-- output guild id
 token = token  # <-- your Account token
 
+print("  ")
+print("  ")
 
-print("  ")
-print("  ")
 
 @client.event
 async def on_ready():

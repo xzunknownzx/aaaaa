@@ -1,5 +1,7 @@
 import discord
-from colorama import Fore, init, Style
+from colorama import Fore
+from colorama import Style
+from colorama import init
 
 
 def print_add(message):
