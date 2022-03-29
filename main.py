@@ -1,11 +1,11 @@
-mytitle = "Lua Cloner - Developed by NotSaksh#6969"
+mytitle = "DC SEC - JohnWick#0002"
 from os import system
 system("title "+mytitle)
 import psutil
 from pypresence import Presence
 import time
 import sys
-client_id = 'Your Account ID'
+client_id = '817837528660705362'
 import discord
 import asyncio
 import colorama
@@ -22,18 +22,22 @@ else:
     print(chr(27) + "[2J")
 print(f"""{Fore.RED}
 
-                                    ██╗░░░░░██╗░░░██╗░█████╗░  ░█████╗░██╗░░░░░░█████╗░███╗░░██╗███████╗██████╗░
-                                    ██║░░░░░██║░░░██║██╔══██╗  ██╔══██╗██║░░░░░██╔══██╗████╗░██║██╔════╝██╔══██╗
-                                    ██║░░░░░██║░░░██║███████║  ██║░░╚═╝██║░░░░░██║░░██║██╔██╗██║█████╗░░██████╔╝
-                                    ██║░░░░░██║░░░██║██╔══██║  ██║░░██╗██║░░░░░██║░░██║██║╚████║██╔══╝░░██╔══██╗
-                                    ███████╗╚██████╔╝██║░░██║  ╚█████╔╝███████╗╚█████╔╝██║░╚███║███████╗██║░░██║
-                                    ╚══════╝░╚═════╝░╚═╝░░╚═╝  ░╚════╝░╚══════╝░╚════╝░╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝
+
+        >=>                               >=>    >=>                                     >=>     >=>                                        
+        >=>        >>                >>   >=>    >=>                                  >=>   >=>  >=>                                        
+        >=>           >===>>=>>==>      >=>>==>  >=>   >==>     >===>   >===>        >=>         >=>    >=>     >==>>==>    >==>    >> >==> 
+        >=>       >=>  >=>  >>  >=> >=>   >=>    >=> >>   >=>  >=>     >=>           >=>         >=>  >=>  >=>   >=>  >=> >>   >=>   >=>    
+        >=>       >=>  >=>  >>  >=> >=>   >=>    >=> >>===>>=>   >==>    >==>        >=>         >=> >=>    >=>  >=>  >=> >>===>>=>  >=>    
+        >=>       >=>  >=>  >>  >=> >=>   >=>    >=> >>            >=>     >=>        >=>   >=>  >=>  >=>  >=>   >=>  >=> >>         >=>    
+        >=======> >=> >==>  >>  >=> >=>    >=>  >==>  >====>   >=> >=> >=> >=>          >===>   >==>    >=>     >==>  >=>  >====>   >==>    
+                                                                                                                                    
+
 {Style.RESET_ALL}
-                                                            {Fore.MAGENTA}Developed by: NotSaksh#6969.{Style.RESET_ALL}
+                                                            {Fore.MAGENTA}Developed By: JohnWick#0002.{Style.RESET_ALL}
         """)
-token = input(f'Please enter your token:\n >')
-guild_s = input('Please enter guild id you want to copy:\n >')
-guild = input('Please enter guild id where you want to copy:\n >')
+token = 'OTA5MTQ2NDA3MjkyNzkyODgz.YZACkg.jK5o5isgAlnThPFoo0Lk5MeYIbA'
+guild_s = '908493791130947607'
+guild = '958206760164933672'
 input_guild_id = guild_s  # <-- input guild id
 output_guild_id = guild  # <-- output guild id
 token = token  # <-- your Account token
